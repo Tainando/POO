@@ -1,3 +1,3 @@
 # POO
 
-aulas de programação ireintada e objetiva
+aulas de programação orientada e objetiva
