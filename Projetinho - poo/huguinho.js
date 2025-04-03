@@ -1,19 +1,24 @@
 const prompt = require('prompt-sync')();
 
-class Cliente{
-    #nome;
+// Modelo de atributos e funçoes para criação de um objeto
+class Cliente {
+    // # = privar dado
+    #nome;// atributo
     idade;
     cpf;
     agencia;
-    getNome (){
+    
+    // retorna uma string com os dados/atributos
+    getNome() {
         return this.#nome;
     }
 
-    setNome(Value){
+    // preenche nome
+    setNome(Value) {
         this.#nome = Value
     }
- }
- let cliente = new Cliente();
+}
+let cliente = new Cliente();
 
 cliente.setNome(prompt("Digite o nome do Cliente"));
 cliente.idade = prompt("Digite a sua idade");
